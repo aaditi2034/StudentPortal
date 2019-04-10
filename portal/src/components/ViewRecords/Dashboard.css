@@ -1,0 +1,14 @@
+.dashboard {
+    display: inline-block;
+    color: white;
+    width: 50%;
+}
+
+.username {
+    float: right;
+}
+
+.sort_by {
+    margin: 0 auto;
+    width: 50%;
+}
