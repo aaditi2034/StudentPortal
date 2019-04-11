@@ -1,0 +1,67 @@
+{
+  "studentData": [
+    {
+      "id": 1,
+      "rollno": 1,
+      "name": "Arpit Gupta",
+      "subject": "Java Script",
+      "marks": 70
+    },
+    {
+      "rollno": "2",
+      "name": "Aditi Gupta",
+      "subject": "Angular",
+      "marks": "78",
+      "id": 2
+    },
+    {
+      "rollno": "3",
+      "name": "Shivani Sehgal",
+      "subject": "js",
+      "marks": "77",
+      "id": 3
+    },
+    {
+      "rollno": "4",
+      "name": "Akshay Jain",
+      "subject": "C",
+      "marks": "90",
+      "id": 4
+    },
+    {
+      "rollno": "5",
+      "name": "Akshmeet",
+      "subject": "Compiler",
+      "marks": "90",
+      "id": 6
+    },
+    {
+      "rollno": "6",
+      "name": "Signal",
+      "subject": "Database",
+      "marks": "80",
+      "id": 7
+    },
+    {
+      "rollno": "7",
+      "name": "Ritu Gupta",
+      "subject": "English",
+      "marks": "80",
+      "id": 8
+    },
+    {
+      "rollno": "8",
+      "name": "Ajay",
+      "subject": "Accounts",
+      "marks": "30",
+      "id": 9
+    },
+    {
+      "rollno": "9",
+      "name": "Lakshay",
+      "subject": "Python",
+      "marks": "10",
+      "id": 10
+    }
+  ]
+}

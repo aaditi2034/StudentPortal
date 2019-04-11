@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './Home';
+import DisplayArea from './PageBody/DisplayArea';
 
 const App = () => (
   <div className="container main">
-    <Home />
+    <DisplayArea />
   </div>
 );
 
