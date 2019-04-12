@@ -8,8 +8,8 @@
   b) If an account is already created, Login to portal. <br>
   c) On successfull login, the list of students will be visible. <br>
   d) There are two functionalities : <br>
-      **i) Add student: Adds the student data. <br>
-      ii) Sort By: Sort the data according to Roll no and Marks.** <br>
+      i) Add student: Adds the student data. <br>
+      ii) Sort By: Sort the data according to Roll no and Marks. <br>
   e) User can logout to his/ her portal. <br>
   
 ## Built With 
