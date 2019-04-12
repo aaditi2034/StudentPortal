@@ -1,6 +1,6 @@
 # StudentPortal
   
-  # description
+  # Description
   A portal used to see student records.
   
   # What it does
