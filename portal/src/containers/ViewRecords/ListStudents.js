@@ -1,8 +1,7 @@
 import React from 'react';
-import BootstrapTable from 'react-bootstrap-table-next';
 import Button from 'react-bootstrap/Button';
+import BootstrapTable from 'react-bootstrap-table-next';
 import paginationFactory from 'react-bootstrap-table2-paginator';
-import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Dashboard from '../../components/PortalDashboard/Dashboard';
 import AddStudent from '../InsertRecord/AddStudent';
 import SortBy from '../SortRecords/SortBy';
@@ -11,22 +10,22 @@ import { fetchData } from '../../API/studentApi';
 
 const columns = [{
   dataField: 'rollno',
-  text: 'Roll No',
+  text: '^ Roll No',
   sort: true,
 },
 {
   dataField: 'name',
-  text: 'Name',
+  text: '^ Name',
   sort: true,
 },
 {
   dataField: 'subject',
-  text: 'Subject',
+  text: '^ Subject',
   sort: true,
 },
 {
   dataField: 'marks',
-  text: 'Marks',
+  text: '^ Marks',
   sort: true,
 }];
 

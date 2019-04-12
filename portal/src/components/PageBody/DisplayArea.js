@@ -14,7 +14,7 @@ const DisplayArea = () => (
         <Route exact path="/" component={SignUp} />
         <Route path="/login" component={Login} />
       </div>
-      <Route path="/studentPortal" component={ListStudents} />
+      <Route path="/student-portal" component={ListStudents} />
     </div>
   </Router>
 );

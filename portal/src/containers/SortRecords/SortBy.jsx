@@ -38,9 +38,6 @@ class SortBy extends React.Component {
         data.sort((a, b) => a.rollno - b.rollno);
         break;
       case 2:
-        data.sort((a, b) => a.name > b.name);
-        break;
-      case 3:
         data.sort((a, b) => a.marks - b.marks);
         break;
       default:
@@ -71,16 +68,9 @@ class SortBy extends React.Component {
               <MDBInput
                 onClick={this.onClick(2)}
                 checked={radio === 2}
-                label="Sort by Name"
-                type="radio"
-                id="radio2"
-              />
-              <MDBInput
-                onClick={this.onClick(3)}
-                checked={radio === 3}
                 label="Sort by Marks"
                 type="radio"
-                id="radio3"
+                id="radio2"
               />
             </MDBFormInline>
           </div>

@@ -50,7 +50,7 @@ class Login extends React.Component {
     if (redirectCheck) {
       return (
         <Redirect to={{
-          pathname: '/studentPortal',
+          pathname: '/student-portal',
           state: { userName: member.email },
         }}
         />
