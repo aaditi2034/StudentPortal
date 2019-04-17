@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-sm bg-info"
+  >
+    <div
+      class="navbar-brand fancy-h1"
+    >
+      Student Portal
+    </div>
+  </nav>
+</DocumentFragment>
+`;

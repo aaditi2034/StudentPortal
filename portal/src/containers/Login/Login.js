@@ -69,25 +69,25 @@ class Login extends React.Component {
         <br />
         <form onSubmit={this.handleSubmit} className="form-container">
           {this.redirect()}
-          <div className="form-group">
+          <fieldset className="form-group">
             <InputField
               inputType="email"
               title="E-Mail"
               name="email"
               value={member.email}
-              placeholder="Enter E-Mail"
+              placeholder="E-Mail"
               onChange={this.handleChange}
             />
-          </div>
-          <div className="form-group">
+          </fieldset>
+          <fieldset className="form-group">
             <InputField
               inputType="password"
               title="Password"
               name="password"
-              placeholder="Enter Password"
+              placeholder="Password"
               onChange={this.handleChange}
             />
-          </div>
+          </fieldset>
           <button type="submit" className="btn btn-primary">Login</button>
           <div className="error">{error}</div>
         </form>

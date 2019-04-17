@@ -11,15 +11,18 @@ import './SignUp.css';
 const EMAIL = RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 
 class SignUp extends React.Component {
-  state = {
-    newMember: {
-      name: '',
-      email: '',
-      password: '',
-    },
-    redirectCheck: false,
-    showModal: false,
-    formErrors: { name: '', email: '', password: '' },
+  constructor(props) {
+    super(props);
+    this.state = {
+      newMember: {
+        name: '',
+        email: '',
+        password: '',
+      },
+      redirectCheck: false,
+      showModal: false,
+      formErrors: { name: '', email: '', password: '' },
+    };
   }
 
   onRedirect() {
@@ -75,7 +78,11 @@ class SignUp extends React.Component {
   }
 
   render() {
-    const { formErrors, newMember, showModal } = this.state;
+    const {
+      formErrors,
+      newMember,
+      showModal,
+    } = this.state;
     const isValid = newMember.name.length > 0
                       && newMember.password.length > 5 && newMember.email.length > 7;
     return (
